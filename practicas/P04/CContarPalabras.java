@@ -24,7 +24,7 @@ public class CContarPalabras
     
     //Eliminar blancos, tabuladores y finales de linea entre palabras
     if (car == ' ' || car == '\n' || car == '\t')
-    palabra  = false;
+    palabra  = false;//cambios
     else if (!palabra)//comienza una palabra
     {
      npalabras++; //contador de palabras
