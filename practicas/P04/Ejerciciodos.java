@@ -1,8 +1,6 @@
 import java.io.*;
 
-public class CContarPalabras 
-{
- public class CContarPalabras 
+public class Ejerciciodos 
 {
  public static void main(String[] args) //Contar caracteres, palabras y lineas en un texto
  {

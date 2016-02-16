@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class LeerUnaCadena {
-	public static void main(String[] args){
+	public static void main(String[] args) throws Throwable{
 	InputStreamReader isr = new InputStreamReader(System.in); 
 	BufferedReader flujoE = new BufferedReader(isr);
 
