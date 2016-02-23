@@ -1,14 +1,18 @@
 import java.io.*;
 public class Ejerciciouno{
  public static void main(String[] args){
-  int cont=0;
-  while (cont != arreglo1.length){
-    if (arreglo1[cont] %2==0){
-  cont ++;}
-  else {
-    System.out.println("El numero es impar:"+arreglo1[cont]);
-  }
-  cont ++;}
+ 	InputStreamReader isr = new InputStreamReader(System.in);
+  BufferedReader flujoE = new BufferedReader(isr);
+  int arreglo[] = new int [numero];
+  int media= arreglo[0];
+  Sistem.out.printf ("Ingrese un numero");
+  numero = Integer.parseInt(flujoE.readLine());
+  for (int i=1; i<arreglo.length; i++);{
+  	do (arreglo%2!=0){
+	}while (media < arreglo[i]){
+  		media = arreglo [i];
+  	Sistem.out.printf (numero); }
+	}
 
   }      
        
